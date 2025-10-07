@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio043-Índice_de_Massa_Corporal.py' foi criado automaticamente

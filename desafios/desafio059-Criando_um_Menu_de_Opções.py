@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio059-Criando_um_Menu_de_Opções.py' foi criado automaticamente

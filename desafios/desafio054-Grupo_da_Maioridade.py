@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio054-Grupo_da_Maioridade.py' foi criado automaticamente

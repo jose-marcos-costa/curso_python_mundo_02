@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio055-Maior_e_menor_da_sequência.py' foi criado automaticamente

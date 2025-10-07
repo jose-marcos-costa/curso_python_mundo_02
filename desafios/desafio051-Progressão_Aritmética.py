@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio051-Progressão_Aritmética.py' foi criado automaticamente

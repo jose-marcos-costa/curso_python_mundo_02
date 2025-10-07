@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio040-Aquele_clássico_da_Média.py' foi criado automaticamente

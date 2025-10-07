@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio058-Jogo_da_Adivinhação_v2.0.py' foi criado automaticamente

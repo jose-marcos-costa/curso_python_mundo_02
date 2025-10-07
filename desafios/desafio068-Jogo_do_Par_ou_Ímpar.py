@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio068-Jogo_do_Par_ou_Ímpar.py' foi criado automaticamente

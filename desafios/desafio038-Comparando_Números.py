@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio038-Comparando_Números.py' foi criado automaticamente

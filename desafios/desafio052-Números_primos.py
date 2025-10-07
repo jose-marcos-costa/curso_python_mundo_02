@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio052-Números_primos.py' foi criado automaticamente

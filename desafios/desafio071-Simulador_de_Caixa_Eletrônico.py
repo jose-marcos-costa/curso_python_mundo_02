@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio071-Simulador_de_Caixa_Eletrônico.py' foi criado automaticamente

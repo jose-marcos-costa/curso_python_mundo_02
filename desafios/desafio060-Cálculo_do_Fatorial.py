@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio060-Cálculo_do_Fatorial.py' foi criado automaticamente

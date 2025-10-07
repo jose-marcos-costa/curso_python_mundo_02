@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio039-Alistamento_Militar.py' foi criado automaticamente

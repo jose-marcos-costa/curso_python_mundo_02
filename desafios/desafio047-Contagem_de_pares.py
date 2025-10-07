@@ -1,0 +1,1 @@
+# O arquivo './desafios/desafio047-Contagem_de_pares.py' foi criado automaticamente
