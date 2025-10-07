@@ -66,10 +66,12 @@ Abaixo, alguns exemplos de desafios:
 ## 🧩 Organização dos Arquivos
 
 ```
-📁 Python-Mundo2
- ┣ 📂 exemplos        # Códigos usados em aula
- ┣ 📂 desafios        # Soluções dos desafios (036 a 071)
- ┣ 📄 README.md       # Este arquivo
+📁 curso_em_python_mundo_02
+ ┣ 📂 exemplos               # Códigos usados em aula
+ ┣ 📂 desafios               # Soluções dos desafios (036 a 071)
+ ┣ 📂 notas                  # Notas de Aula
+ ┣ 📄 dicionario_python.txt  # Arquivo Auxiliar com os Nomes dos Desafios 
+ ┣ 📄 README.md              # Este arquivo
 ```
 
 ---
