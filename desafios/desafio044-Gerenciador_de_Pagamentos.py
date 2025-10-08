@@ -1,21 +1,27 @@
-preco_normal = float(input('Digite o preço normal do produto: R$ '))
-print('Escolha uma das opções de pagamento abaixo:')
-print('0 - À Vista (Dinheiro/Cheque)')
-print('1 - À Vista (Cartão)')
-print('2 - Em até 2 vezes (Cartão)')
-print('3 - Em 3 vezes ou mais (Cartão)')
-opcao_escolhida = int(input('Digite a opção desejada: '))
-if opcao_escolhida == 0:
-    valor_a_pagar = preco_normal * (1 - 10/100)
-    print('O valor a pagar é {:.2f}'.format(valor_a_pagar))
-elif opcao_escolhida == 1:
-    valor_a_pagar = preco_normal * (1 - 5/100)
-    print('O valor a pagar é {:.2f}'.format(valor_a_pagar))
-elif opcao_escolhida == 2:
-    valor_a_pagar = preco_normal
-    print('O valor a pagar é {:.2f}'.format(valor_a_pagar))
-elif opcao_escolhida == 3:
-    valor_a_pagar = preco_normal* (1 + 20/100)
-    print('O valor a pagar é {:.2f}'.format(valor_a_pagar))
+print('{:=^40}'.format(' LOJAS DO ZÉ '))
+valor_compra = float(input('Preço das compras: R$ '))
+print('''FORMAS DE PAGAMENTO:
+[ 1 ] - À Vista (Dinheiro/Cheque)
+[ 2 ] - À Vista (Cartão)
+[ 3 ] - Em até 2 vezes (Cartão)
+[ 4 ] - Em 3 vezes ou mais (Cartão)''')
+opcao_escolhida = int(input('Qual é a opção: '))
+if 1 <= opcao_escolhida <=4:
+    if opcao_escolhida == 1:
+        total = valor_compra * (1 - 10 / 100)
+    elif opcao_escolhida == 2:
+        total = valor_compra * (1 - 5 / 100)
+    elif opcao_escolhida == 3:
+        parcelas = int(input('Quantas parcelas? '))
+        total = valor_compra
+        valor_parcelas = total / parcelas
+        print('Sua compra será parcelada em {}x de {:.2f} SEM JUROS.'.format(parcelas, valor_parcelas))
+    elif opcao_escolhida == 4:
+        parcelas = int(input('Quantas parcelas? '))
+        total = valor_compra * (1 + 20 / 100)
+        valor_parcelas = total / parcelas
+        print('Sua compra será parcelada em {}x de {:.2f} COM JUROS.'.format(parcelas, valor_parcelas))
+    print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final.'.format(valor_compra, total))
 else:
-    print('Opção Inválida!')
+    print('OPÇÃO INVÁLIDA DE PAGAMENTO! Tente novamente...')
+
