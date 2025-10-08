@@ -24,4 +24,3 @@ if 1 <= opcao_escolhida <=4:
     print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final.'.format(valor_compra, total))
 else:
     print('OPÇÃO INVÁLIDA DE PAGAMENTO! Tente novamente...')
-    
