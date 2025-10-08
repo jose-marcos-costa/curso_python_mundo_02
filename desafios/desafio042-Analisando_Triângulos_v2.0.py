@@ -3,13 +3,15 @@ b = int(input('Digite a medida da segunda semireta (b): '))
 c = int(input('Digite a medida da terceira semireta (c): '))
 
 if (a + b) > c and (a + c) > b and (b + c) > a:
-    print('SIM! As 3 semiretas formam um triângulo!')
+    print('SIM! As 3 semiretas formam um triângulo ', end='')
+    #if a == b == c:
     if a == c and c == b:
-        print("Triângulo Equilátero!")
+        print("Equilátero!")
     elif a == b or a == c or b == c:
-        print('Triângulo Isósceles')
+        print('Isósceles')
+    #else:
     elif a != b and b != c:
-        print('Triângulo Escaleno')
+        print('Escaleno')
 else:
     print('NÃO! As 3 semiretas não formam um triângulo')
 
