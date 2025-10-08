@@ -2,13 +2,16 @@ from datetime import date
 ano_nascimento = int(input('Por favor, digite o ano de seu nascimento (Formato AAAA): '))
 ano_atual = date.today().year
 idade = ano_atual - ano_nascimento
-if idade < 18:
-    print('Ainda vai se alistar.')
-    tempo_resta = 18 - idade
-    print('Ainda faltam {} ano(s) para se alistar'.format(tempo_resta))
-elif idade == 18:
-    print('É hora de se alistar!')
+idade_correta = 18
+print('Quem nasceu em {} tem {} anos em {}.'.format(ano_nascimento, idade, ano_atual))
+if idade < idade_correta:
+    saldo = idade_correta - idade
+    print('Ainda faltam {} ano(s) para o alistamento.'.format(saldo))
+    print('Seu alistamento será em {}.'.format(ano_atual + saldo))
+elif idade == idade_correta:
+    print('Você tem que se alistar IMEDIATAMENTE!')
 else:
-    print('Já passou do tempo do ALISTAMENTO!')
-    tempo_passou = idade - 18
-    print('Você está {} ano(s) atrasado!'.format(tempo_passou))
+    saldo = idade - idade_correta
+    print('Você já deveria ter se alistado há {} ano(s).'.format(saldo))
+    print('Seu alistamento foi em {}.'.format(ano_atual - saldo))
+
