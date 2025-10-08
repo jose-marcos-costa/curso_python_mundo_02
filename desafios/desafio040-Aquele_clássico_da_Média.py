@@ -5,7 +5,9 @@ print('Média = {:.2f}'.format(media))
 if media < 5:
     print('REPROVADO')
 #elif media >= 5 and media < 7:
+#elif 7 > media >= 5: "
 elif 5 <= media < 7:
     print('RECUPERAÇÃO')
+#elif media >= 7:
 else:
     print('APROVADO')
