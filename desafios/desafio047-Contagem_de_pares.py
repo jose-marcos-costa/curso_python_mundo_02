@@ -1,1 +1,4 @@
-# O arquivo './desafios/desafio047-Contagem_de_pares.py' foi criado automaticamente
+for i in range(1, 51):
+    if i % 2 == 0:
+        print('O número {:2} é PAR!'.format(i))
+
