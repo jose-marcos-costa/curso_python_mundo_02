@@ -1,1 +1,5 @@
-# O arquivo './desafios/desafio048-Soma_ímpares_múltiplos_de_três.py' foi criado automaticamente
+soma = 0
+for i in range(1, 501):
+    if i % 2 != 0 and i % 3 == 0:
+        soma += i
+print('A soma de todos os nÃºmeros Ã­mpares entre 1 e 500 que sÃ£o mÃºltiplos de 3 Ã© dada por: {}'.format(soma))
