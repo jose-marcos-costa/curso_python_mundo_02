@@ -1,1 +1,12 @@
-# O arquivo './desafios/desafio060-Cálculo_do_Fatorial.py' foi criado automaticamente
+numero = int(input('Digite um nÃºmero: '))
+cont = numero
+fatorial = 1
+print('{}! = '.format(numero), end='')
+while cont >= 1:
+    fatorial *= cont
+    if cont != 1:
+        print('{}'.format(cont), end='x')
+    else:
+        print('{}'.format(cont), end='')
+    cont -= 1
+print(' = {}'.format(fatorial))
