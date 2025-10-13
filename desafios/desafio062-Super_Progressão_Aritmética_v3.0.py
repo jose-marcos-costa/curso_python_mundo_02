@@ -1,1 +1,15 @@
-# O arquivo './desafios/desafio062-Super_Progressão_Aritmética_v3.0.py' foi criado automaticamente
+a1 = int(input('Primeiro termo da PA (a1): '))
+r = int(input('RazÃ£o da PA: '))
+aux = a1
+n = 10
+cont = 1
+while n != 0:
+    while cont <= n:
+        an = a1 + (cont - 1) * r
+        print('{}'.format(an), end=' â†’ ')
+        cont += 1
+    print('ACABOU!')
+    n = int(input('Quantos termos a mais vocÃª deseja visualizar? '))
+    a1 = an + r
+    cont = 1
+print('FINISH')
