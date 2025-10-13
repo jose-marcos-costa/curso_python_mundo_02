@@ -1,1 +1,8 @@
-# O arquivo './desafios/desafio061-Progressão_Aritmética_v2.0.py' foi criado automaticamente
+a1 = int(input('Primeiro termo da PA (a1): '))
+r = int(input('RazÃ£o da PA (r): '))
+cont = 1
+while cont <=10:
+    an = a1 + (cont - 1) * r
+    print('{}'.format(an), end=' â†’ ')
+    cont += 1
+print('ACABOU!')
