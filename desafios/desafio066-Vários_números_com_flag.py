@@ -6,4 +6,4 @@ while True:
         break
     soma += numero
     cont += 1
-print(f'Foram digitados {cont} e a soma entre eles é {soma}')
+print(f'Foram digitados {cont} números e a soma entre eles é {soma}')
