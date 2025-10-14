@@ -2,9 +2,8 @@ from random import randint
 print(f'=-' * 14)
 print(f'VAMOS JOGAR PAR OU ÍMPAR?')
 print(f'=-' * 14)
-venceu = True
 cont = 0
-while venceu:
+while True:
     jogador = int(input('Diga um valor: '))
     modo = str(input('Par ou Ímpar? [P/I] ')).strip().upper()[0]
     print(f'--' * 14)
@@ -28,5 +27,6 @@ while venceu:
         elif modo == 'I':
             print(f'Você GANHOU!')
             cont += 1
+    print('Vamos jogar novamente...')
 print(f'=-' * 14)
 print(f'GAME OVER! Você venceu {cont} vez(es).')
